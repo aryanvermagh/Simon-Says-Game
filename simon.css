@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+    background-color:lightgreen;
+}
+
+h2{
+    color:maroon;
+}
+
+.red{
+    border:10px solid black;
+    border-radius: 50px;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    transition-duration: 0.5s;
+}
+
+.blue{
+    border:10px solid black;
+    border-radius: 50px;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    transition-duration: 0.5s;
+}
+
+.yellow{
+    border:10px solid black;
+    border-radius: 50px;
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    transition-duration: 0.5s; 
+}
+
+
+.orange{
+    border:10px solid black;
+    border-radius: 50px;
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    transition-duration: 0.5s; 
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+
+#stbtn{
+    background-color: brown;
+    color:black;
+    border-radius: 30px;
+    border:6px solid black;
+    width: 100px;
+    height: 60px;
+    font-size:1.5em;
+    transition-duration: 0.5s;
+}
+
+#stbtn:hover{
+    box-shadow: 5px 5px 20px black;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    margin-top: 15px;
+}
+
+.red:hover{
+    box-shadow: 10px 10px 20px black;
+}
+
+.yellow:hover{
+    box-shadow: 10px 10px 20px black;
+}
+
+.blue:hover{
+    box-shadow: 10px 10px 20px black;
+}
+
+.orange:hover{
+    box-shadow: 10px 10px 20px black;
+}
+
+.flash{
+    background-color: white !important;
+}
+
+.userFlash{
+    background-color: skyblue !important;
+}
+
